@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+/* * * * *   * * * * */
+body {
+    background-color: #EFEFEF;
+}
+.topNavBar {
+    position: fixed;
+    width: 100%;
+}
+.topNavBar .logo {
+    font-family: "Arial Black";
+    font-size: 22px;
+    float: left;
+    margin: 30px 0 0 17px;
+    font-weight: bold;
+  }
+  .topNavBar .logo .rs{
+    color: #e6686a;
+    margin-right: 4px;
+  }
+  .topNavBar .logo .card{
+    color: #9A9DA2;
+  }
+  .topNavBar nav {
+    font-size: 13px;
+    margin: 38px 35px 0 0;
+    float: right;
+  }
+  .topNavBar nav a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-weight: bold;
+  }
+ 
+  .topNavBar nav ul li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+  .topNavBar nav ul li a{
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+  }
+  .topNavBar nav ul li a:hover{
+    margin-bottom: 5px;
+    border-bottom-color: #DC6465;
+  }
+
+  .banner {
+      background-image: url(./images/rs-cover-2-2-1-1.jpg);
+      height: 515px;
+      background-position: center center;
+      background-size: cover;
+  }
+  .banner-mask {
+      height: 515px;
+      background-color: rgba(0,0,0,0.8);
+  }
+  .user-card {
+      max-width: 930px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+
+  /*个人身份卡编辑开始 user-card*/
+  .user-card {
+      background-color: #fff;
+      max-width: 930px;
+  }
+  .hello {
+      color: #fff;
+      background-color: #E8676B;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 5px 12px;
+      position: relative;
+  }
+  .triangle {
+      width: 0;
+      height: 0;
+      border-top: 10px solid #E8676B;
+      border-right: 10px solid transparent;
+      position: absolute;
+      left: 5px;
+      top: 100%;
+  }
+  .user-picture {
+      padding:58px 0 0 50px;
+      float: left;
+  }
+  .identity {
+      float: left;
+      margin: 58px 0 0 62px;
+      width: 470px;
+  }
+  .user-name {
+      margin: 34px 0 8px 0;
+      font-size: 26px;
+      font-weight: bold;
+  }
+  .user-boundary {
+      margin: 28px 0;
+      height: 1px;
+      border: none;
+      background-color: #DEDEDE;
+  }
+  .identity-message dl dt, .identity-message dl dd {
+      float: left;
+      margin-bottom: 22px;
+      font-weight: bold;
+  }
+  .identity-message dl dt {
+    width: 30%;
+  }
+  .identity-message dl dd {
+    font-weight: normal;
+    width: 70%;
+    color: #9DA0A7;
+  }
+   .user-birthday {
+    color: #fff;
+    background-color: #E8676B;
+    padding: 3px 6px;
+  }
+
+/***********   rapid                  */
+
+   .rapid {
+       background-color: #E8676B;
+       text-align: center;
+
+
+   }
+   .rapid ul{
+       display: inline-block;
+       overflow: auto;
+       vertical-align: top;
+
+   }
+   .rapid li{
+       float: left;
+
+   }
+    .rapid li a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        /*background-color: #E8676B;*/
+        margin: 15px 20px;
+        line-height: 40px;
+
+    }
+    .rapid li  i {
+        font-size: 30px;
+        color: #fff;
+    }
+    .rapid li a:hover{
+        background-color: #CF5D5F;
+    }
